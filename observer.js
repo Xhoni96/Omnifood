@@ -14,10 +14,8 @@ const sectionOneObserver = new IntersectionObserver(function (
   entries.forEach((entry) => {
     if (!entry.isIntersecting) {
       nav.classList.add("active");
-      img.src = "img/logo.png"
     } else {
       nav.classList.remove("active");
-      img.src = "img/logo-white.png"
     }
   });
 },
