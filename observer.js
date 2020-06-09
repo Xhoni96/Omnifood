@@ -25,7 +25,7 @@ sectionOneOptions);
 
 sectionOneObserver.observe(sectionOne);
 
-//  ! FEATURES
+//  ! FEATURES AND OTHER SECTIONS
 const appearOptions = {
   rootMargin: "0px 0px -10% 0px",
 };
